@@ -3,13 +3,17 @@
 
 #include <string>
 
+using namespace std;
+
 
 class Epreuve
 {
 private:
-	std::string gps_d;
-	std::string gps_f;
+	string gps_d;
+	string gps_f;
+
+public :
+	Epreuve(string gps_d, string gps_f);
+	void virtual getLeTriathlon() = 0;
 };
-
-
 #endif 

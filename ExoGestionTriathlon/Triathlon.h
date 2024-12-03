@@ -3,13 +3,26 @@
 
 #include <string>
 
+
+using namespace std;
+
+
 class Triathlon
 {
 private:
 	int id;
-	std::string nom;
-	std::string lieu;
-	std::string date;
-};
+	string nom;
+	string lieu;
+	string date;
 
+public :
+	Triathlon(int id, string nom, string lieu, string date);
+
+
+	Epreuve* GetLesEpreuves();
+	string GetLeType();
+	Inscription* GetLesInscriptions();
+
+	void AddLesInscriptions(Inscription** lesInscriptions);
+};
 #endif 
