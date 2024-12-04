@@ -6,6 +6,9 @@
 
 using namespace std;
 
+// Déclarations anticipées
+class Inscription;
+class Epreuve;
 
 class Triathlon
 {

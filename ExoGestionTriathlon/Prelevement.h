@@ -21,5 +21,4 @@ public :
 
 	bool EstPositif();
 };
-
 #endif 

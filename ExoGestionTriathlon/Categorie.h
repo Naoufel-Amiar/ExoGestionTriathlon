@@ -4,17 +4,19 @@
 #include <string>
 #include "Triathlete.h"
 
-class Triathlete;
+using namespace std;
 
 class Categorie
 {
 private:
 	int code;
-	std::string libelle;
+	string libelle;
 	int age_min;
 	int age_max;
 
 public :
+	Categorie(int code, string libelle, int age_min, int age_max);
+
 	Triathlete** GetLesTriathletes();
 	Triathlete** LesTriathletesAsurveiller();
 	void AddLesTriathletes(Triathlete** lesTriathletes);

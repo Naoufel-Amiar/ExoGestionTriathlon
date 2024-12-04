@@ -1,16 +1,14 @@
 #ifndef INSCRIPTION_H
 #define INSCRIPTION_H
 
-#include <string>
-#include "Triathlon.h"
-#include "Temps.h"
-#include "Epreuve.h"
-#include "Prelevement.h"
-
+// Déclarations anticipées
 class Triathlon;
 class Temps;
 class Epreuve;
 class Prelevement;
+class Triathlete;
+
+
 
 using namespace std;
 
