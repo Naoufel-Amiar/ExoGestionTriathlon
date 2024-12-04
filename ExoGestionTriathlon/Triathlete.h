@@ -23,7 +23,9 @@ private:
 
 public :
 	Triathlete();
-	Triathlete(int n_licence, string nom, string prenom, string sexe, string adresse, string date_birth);
+	Categorie* laCategorie;
+	Inscription* lesInscriptions;
+	Triathlete(int n_licence, string nom, string prenom, string sexe, string adresse, string date_birth, Categorie* laCategorie);
 
 	Inscription* GetLesInscriptions();
 	Categorie* GetLaCategorie();
