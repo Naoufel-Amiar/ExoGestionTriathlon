@@ -3,12 +3,19 @@
 
 #include <string>
 
+using namespace std;
+
 class ProduitDopants
 {
 private:
 	int code;
-	std::string libelle;
+	string libelle;
 	double taux;
+
+public :
+	ProduitDopants(int code, string libelle, double taux);
+
+	double GetLeTaux();
 };
 
 #endif 

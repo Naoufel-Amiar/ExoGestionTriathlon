@@ -12,6 +12,8 @@ private :
 	int Num;
 
 public :
+	Annee(int Num);
+
 	void dope(); //: public Produit_Dopants
 };
 

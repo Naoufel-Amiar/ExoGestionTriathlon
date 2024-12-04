@@ -2,12 +2,18 @@
 #define COURSES_H
 
 #include <string>
+#include "Epreuve.h"
 
-class Courses
+class Courses  : public Epreuve
 {
-private:
+private :
 	int denivele_plus;
 	int denivele_moins;
+
+public :
+	Courses(int denivele_plus, int denivele_moins);
+
+	void virtual affiche() = 0;
 };
 
 
