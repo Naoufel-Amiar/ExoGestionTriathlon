@@ -13,13 +13,13 @@ Triathlete::Triathlete()
 
 Triathlete::Triathlete(int n_licence, string nom, string prenom, string sexe, string adresse, string date_birth, Categorie* laCategorie)
 {
-	return 0;
+	
 }
 
 
 Inscription* Triathlete::GetLesInscriptions()
 {
-
+	return lesInscriptions;
 }
 
 
@@ -45,6 +45,6 @@ int Triathlete::GetNumLicence()
 
 string Triathlete::Affiche()
 {
-
+	return "Data Send";
 }
 #endif
