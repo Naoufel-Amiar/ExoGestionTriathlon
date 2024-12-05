@@ -20,6 +20,7 @@ public :
 	Triathlete** GetLesTriathletes();
 	Triathlete** LesTriathletesAsurveiller();
 	void AddLesTriathletes(Triathlete** lesTriathletes);
+	string getLibelle();
 };
 	
 

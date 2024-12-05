@@ -15,11 +15,11 @@
 
 int main()
 {
-//    // CREATION DES DONNEES
-//
-//    // Création de deux Categories
+
+    // Création de deux Categories
     Categorie* J1 = new Categorie(1, "Junior", 15, 18);
     Categorie* S1 = new Categorie(2, "Sénior", 19, 30);
+
 
     // Création de 4 Triathletes
     Triathlete A(1, "TOTO", "TOTO", "M", "Annecy", "23/02/2009", J1);
@@ -27,7 +27,8 @@ int main()
     Triathlete C(3, "TATA", "TATA", "M", "Chambéry", "22/03/2000", S1);
     Triathlete D(4, "TUTU", "TATA", "F", "Epagny", "30/06/2009", J1);
 
-//    // Création d'un type d'épreuveS
+
+    // Création d'un type d'épreuveS
     Type M(0, "M", 1.5, 50.0, 10.0);
 
     // 1. Afficher La distance de L'épreuve de natation du type M
