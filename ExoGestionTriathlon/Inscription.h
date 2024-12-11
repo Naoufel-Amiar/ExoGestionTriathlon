@@ -21,6 +21,7 @@ private:
 	int classement_c;
 
 public :
+	Inscription();
 	Inscription(int dossard, string date_i, bool forfait, int classment);
 	Triathlon* GetLeTriathlon();
 	Temps* GetLesTemps();

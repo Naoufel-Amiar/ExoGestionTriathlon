@@ -20,8 +20,12 @@ private:
 	string date;
 
 
-public :
+	Epreuve* lesEpreuves;
 	Type* leType;
+	Inscription* lesInscriptions;
+
+
+public :
 
 	Triathlon(int id, string nom, string lieu, string date);
 

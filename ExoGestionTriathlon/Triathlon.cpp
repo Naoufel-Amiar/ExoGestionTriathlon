@@ -15,26 +15,23 @@ Triathlon::Triathlon(int id, string nom, string lieu, string date)
 
 Epreuve* Triathlon::GetLesEpreuves()
 {
-
+	return lesEpreuves;
 }
 
 
-string Triathlon::GetLeType()
-{
-	return leType;
-}
+//string Triathlon::GetLeType()
+//{
+//	return leType;
+//}
 
 
 Inscription* Triathlon::GetLesInscriptions()
 {
-
+	return lesInscriptions;
 }
-
 
 void Triathlon::AddLesInscriptions(Inscription** lesInscriptions)
 {
 
 }
-
-
 #endif

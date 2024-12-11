@@ -35,13 +35,15 @@ int main()
     
 
         // Création du Triathlon International d'Annecy
-        Triathlon* Annecy = new Triathlon(1, "Triathlon International Annecy", "le Pasquier", "21/06/2025", NULL, NULL, M);
+        Triathlon* Annecy = new Triathlon(1, "Triathlon International Annecy", "le Pasquier", "21/06/2025");
 
     // 2. Type du Triathlon d'Annecy
     
 
         // 3. Faire une Liste de 100 Inscriptions vides pour un Triathlon
-        Inscription** lesInscriptions;
+        int nombreParticipants = 100;
+
+        Inscription** lesInscriptions = new Inscription(nombreParticipants);
     
 
         // Réaliser deux Inscriptions
