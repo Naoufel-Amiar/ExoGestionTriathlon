@@ -8,7 +8,7 @@ using namespace std;
 
 class Epreuve
 {
-private:
+protected:
 	string gps_d;
 	string gps_f;
 

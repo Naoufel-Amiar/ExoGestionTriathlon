@@ -8,7 +8,7 @@ class Epreuve;
 class Prelevement;
 class Triathlete;
 
-
+#include <string>
 
 using namespace std;
 
@@ -20,9 +20,15 @@ private:
 	bool forfait;
 	int classement_c;
 
+	Triathlete* leTriathlete;
+	Triathlon* leTriathlon;
+	Temps* temps;
+
 public :
+	
+
 	Inscription();
-	Inscription(int dossard, string date_i, bool forfait, int classment);
+	Inscription(int dossard, string date_i, bool forfait, int classement_c, Triathlete* leTriathlete, Triathlon* leTriathlon);
 	Triathlon* GetLeTriathlon();
 	Temps* GetLesTemps();
 	Epreuve* GetLesTroisEpreuves();

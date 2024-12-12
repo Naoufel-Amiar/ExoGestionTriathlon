@@ -25,7 +25,7 @@ int main()
     Triathlete A(1, "TOTO", "TOTO", "M", "Annecy", "23/02/2009", J1);
     Triathlete B(2, "TITI", "TITI", "F", "Rumilly", "12/02/2008", J1);
     Triathlete C(3, "TATA", "TATA", "M", "Chambéry", "22/03/2000", S1);
-    Triathlete D(4, "TUTU", "TATA", "F", "Epagny", "30/06/2009", J1);
+    Triathlete D(4, "TUTU", "TUTU", "F", "Epagny", "30/06/2009", J1);
 
 
     // Création d'un type d'épreuveS
@@ -43,12 +43,12 @@ int main()
         // 3. Faire une Liste de 100 Inscriptions vides pour un Triathlon
         int nombreParticipants = 100;
 
-        Inscription** lesInscriptions = new Inscription(nombreParticipants);
+        Inscription* lesInscriptions = new Inscription[nombreParticipants];
     
 
         // Réaliser deux Inscriptions
-    //Inscription J11(1, "22/11/2024", false, 0, &A, NULL, Annecy, NULL, NULL);
-    //Inscription J12(2, "22/11/2024", false, 0, &B, NULL, Annecy, NULL, NULL);
+    Inscription J11(1, "22/11/2024", false, 0, &A, Annecy);
+    Inscription J12(2, "22/11/2024", false, 0, &B, Annecy);
 
     // 4. Insérer les deux Inscriptions à la Liste d'Inscriptions lesInscriptions
     

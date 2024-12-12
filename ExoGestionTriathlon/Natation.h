@@ -11,7 +11,8 @@ private:
 	int temperature;
 
 public :
-	Natation(int temperature);
+	Natation();
+	//Natation(int temperature);
 	
 	int GetTemperature();
 	Triathlon* GetLeTriathlon();

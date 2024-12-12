@@ -1,13 +1,16 @@
 #ifndef TEMPS_H
 #define TEMPS_H
 
-#include <string>
+#include <iostream>
 
 class Temps
 {
 private:
 
 	double temps;
+
+public :
+	double SendTemps(double temps);
 };
 
-#endif 
+#endif
