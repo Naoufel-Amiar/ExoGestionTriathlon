@@ -159,6 +159,9 @@
     <ClInclude Include="Triathlon.h" />
     <ClInclude Include="Type.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="info.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

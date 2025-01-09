@@ -32,10 +32,10 @@ double Type::GetLongPied()
 	return 0.0;
 }
 
-
-void Type::affiche()
-{
-
-}
+//
+//void Type:: che()
+//{
+//
+//}
 
 #endif

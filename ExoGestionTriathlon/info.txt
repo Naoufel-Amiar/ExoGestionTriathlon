@@ -1,0 +1,26 @@
+3. Ecrire en C++ les 8 méthodes précédées d'une étoile et dont l'entête est écrite en gras, dans le document 1B, 
+en fonction également du programme principal.
+
+a. Fonction addLesTriathlètes(Triathlète ** lesTriathlètes) : void
+
+b. Triathlete(numlicence : int, nom : string, prenom : string , sexe : string ,adresse : string, datenaissance : 
+string, …)
+
+c. Triathlete()
+
+d. Fonction affiche() : chaîne de caractères
+
+e. Fonction getLeTriathlon() : * Triathlon
+
+f. Fonction getLeTriathlète() : * Triathlète
+
+g. Fonction getLeType() : Type
+
+h. Fonction getLesInscriptions() : ** Inscriptions
+
+i. Fonction addLesInscriptions(Inscription ** lesInscriptions) : void
+
+j. Fonction getLongNage () : float
+
+
+Plus Question 1 a 12

@@ -6,24 +6,16 @@
 
 
 
-Natation::Natation() :Epreuve(gps_d, gps_f)
+Natation::Natation(int temperature, string gps_d, string gps_f, Triathlon* leTriathlon, Inscription inscription) :Epreuve(gps_d, gps_f), temperature(temperature), lesInscriptions(inscription)
 {
 
 }
 
 
-//Natation(int temperature);
-//
-//int Natation::GetTemperature()
-//{
-//
-//}
-//
-//
-//Triathlon* Natation::GetLeTriathlon()
-//{
-//
-//}
 
+int Natation::GetTemperature()
+{
+	return temperature;
+}
 
 #endif

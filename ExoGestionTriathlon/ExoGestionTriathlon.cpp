@@ -32,7 +32,6 @@ int main()
     Type M(0, "M", 1.5, 50.0, 10.0);
 
     // 1. Afficher La distance de L'épreuve de natation du type M
-    
 
         // Création du Triathlon International d'Annecy
         Triathlon* Annecy = new Triathlon(1, "Triathlon International Annecy", "le Pasquier", "21/06/2025");
@@ -43,7 +42,7 @@ int main()
         // 3. Faire une Liste de 100 Inscriptions vides pour un Triathlon
         int nombreParticipants = 100;
 
-        Inscription* lesInscriptions = new Inscription[nombreParticipants];
+        Inscription** lesInscriptions = new Inscription* [nombreParticipants];
     
 
         // Réaliser deux Inscriptions
@@ -51,14 +50,14 @@ int main()
     Inscription J12(2, "22/11/2024", false, 0, &B, Annecy);
 
     // 4. Insérer les deux Inscriptions à la Liste d'Inscriptions lesInscriptions
-    
-
+    lesInscriptions[0] = &J11;
+    lesInscriptions[1] = &J12;
         // 5. Ajouter la liste lesInscriptions au Triathlon d'Annecy
-      
+    Annecy->AddLesInscriptions(lesInscriptions);
 
         // Ajouter les deux Inscriptions sur la partie Natation du Triathlon d'Annecy
-    //Natation J11nage(9, 45.0, 5.0, Annecy, &J11);
-    //Natation J12nage(9, 45.0, 5.0, Annecy, &J12);
+    Natation J11nage(9, 45.0, 5.0, Annecy, J11);
+    Natation J12nage(9, 45.0, 5.0, Annecy, J12);
 
     // AFFICHAGE DES DONNEES
 

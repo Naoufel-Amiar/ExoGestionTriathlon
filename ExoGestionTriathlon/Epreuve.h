@@ -12,7 +12,7 @@ protected:
 	string gps_d;
 	string gps_f;
 
-public :
+public:
 	Epreuve(string gps_d, string gps_f);
 	void virtual getLeTriathlon() = 0;
 };

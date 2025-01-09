@@ -3,13 +3,15 @@
 
 #include <string>
 
+#include "Inscription.h"
+#include "Epreuve.h"
+#include "Type.h"
+
 
 using namespace std;
 
 // Déclarations anticipées
-class Inscription;
-class Epreuve;
-class Type;
+
 
 class Triathlon
 {

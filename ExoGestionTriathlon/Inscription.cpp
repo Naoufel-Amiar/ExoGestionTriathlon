@@ -24,6 +24,7 @@ Inscription::Inscription(int dossard, string date_i, bool forfait, int classemen
 }
 
 
+
 Triathlon* Inscription::GetLeTriathlon()
 {
 	return leTriathlon;
