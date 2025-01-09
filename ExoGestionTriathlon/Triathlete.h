@@ -25,7 +25,7 @@ public :
 	Triathlete();
 	Categorie* laCategorie;
 	Inscription* lesInscriptions;
-	Triathlete(int n_licence, string nom, string prenom, string sexe, string adresse, string date_birth, Categorie* laCategorie);
+	Triathlete(int n_licence, string nom, string prenom, string sexe, string adresse, string date_birth, Categorie* laCategorie, Inscription* lesInscriptions);
 
 	Inscription* GetLesInscriptions();
 	Categorie* GetLaCategorie();

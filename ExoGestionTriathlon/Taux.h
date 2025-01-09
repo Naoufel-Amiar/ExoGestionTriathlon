@@ -8,6 +8,9 @@ class Taux
 private:
 
 	double mesure;
+
+public :
+	Taux();
 };
 
 #endif 

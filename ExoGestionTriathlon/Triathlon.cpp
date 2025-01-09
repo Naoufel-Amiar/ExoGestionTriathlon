@@ -4,12 +4,17 @@
 #include <string>
 #include "Triathlon.h"
 
-Triathlon::Triathlon(int id, string nom, string lieu, string date)
+Triathlon::Triathlon(int id, string nom, string lieu, string date, Epreuve* lesEpreuves, Inscription* lesInscriptions, Type* leType)
 {
 	this->id = id;
 	this->nom = nom;
 	this->lieu = lieu;
 	this->date = date;
+
+	this->lesEpreuves = lesEpreuves;
+	this->lesInscriptions = lesInscriptions;
+	this->leType = leType;
+
 }
 
 

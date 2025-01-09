@@ -11,8 +11,17 @@ Triathlete::Triathlete()
 }
 
 
-Triathlete::Triathlete(int n_licence, string nom, string prenom, string sexe, string adresse, string date_birth, Categorie* laCategorie)
+Triathlete::Triathlete(int n_licence, string nom, string prenom, string sexe, string adresse, string date_birth, Categorie* laCategorie, Inscription* lesInscriptions)
 {
+	this->n_licence = n_licence;
+	this->nom = nom;
+	this->prenom = prenom;
+	this->sexe = sexe;
+	this->adresse = adresse;
+	this->date_birth = date_birth;
+	this->laCategorie = laCategorie;
+	this->lesInscriptions = lesInscriptions;
+
 	
 }
 

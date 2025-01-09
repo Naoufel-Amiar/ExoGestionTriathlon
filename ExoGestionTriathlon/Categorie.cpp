@@ -3,12 +3,13 @@
 
 #include "Categorie.h"
 
-Categorie::Categorie(int code, string libelle, int age_min, int age_max)
+Categorie::Categorie(int code, string libelle, int age_min, int age_max, Triathlete* triathlete)
 {
 	this->code = code;
 	this->libelle = libelle;
 	this->age_min = age_min;
 	this->age_max = age_max;
+	this->triathlete = triathlete;
 }
 
 Triathlete** Categorie::GetLesTriathletes()

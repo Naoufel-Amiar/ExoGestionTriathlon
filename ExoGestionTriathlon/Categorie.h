@@ -13,9 +13,10 @@ private:
 	string libelle;
 	int age_min;
 	int age_max;
+	Triathlete* triathlete;
 
 public :
-	Categorie(int code, string libelle, int age_min, int age_max);
+	Categorie(int code, string libelle, int age_min, int age_max, Triathlete* triathlete);
 
 	Triathlete** GetLesTriathletes();
 	Triathlete** LesTriathletesAsurveiller();

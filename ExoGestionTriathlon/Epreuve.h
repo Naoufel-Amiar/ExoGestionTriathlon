@@ -13,7 +13,10 @@ protected:
 	string gps_f;
 
 public:
+	Epreuve();
 	Epreuve(string gps_d, string gps_f);
-	void virtual getLeTriathlon() = 0;
+
+	virtual ~Epreuve();
+	void virtual getLeTriathlon();
 };
 #endif 

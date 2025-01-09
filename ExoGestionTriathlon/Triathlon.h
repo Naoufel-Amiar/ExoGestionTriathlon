@@ -29,7 +29,7 @@ private:
 
 public :
 
-	Triathlon(int id, string nom, string lieu, string date);
+	Triathlon(int id, string nom, string lieu, string date, Epreuve* lesEpreuves, Inscription* lesInscriptions, Type* leType);
 
 
 	Epreuve* GetLesEpreuves();

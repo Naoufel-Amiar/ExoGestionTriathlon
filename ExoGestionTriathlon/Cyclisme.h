@@ -2,7 +2,11 @@
 #define CYCLISME_H
 
 #include <string>
+#include <iostream>
+
 #include "Courses.h"
+
+using namespace std;
 
 class Cyclisme  :public Courses
 {

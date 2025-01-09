@@ -4,8 +4,6 @@
 #include <string>
 #include "Produit_Dopants.h"
 
-class Produit_Dopants;
-
 class Annee
 {
 private :
